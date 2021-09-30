@@ -107,7 +107,7 @@ body{
     
     .name input{
         width:150px;
-        border: 1px solid green;
+        
     }
 
     .form_container .dob_gender{
@@ -179,36 +179,52 @@ body{
 
 @media screen and (max-width:475px) {
    html{
-       font-size: 40%;
+       font-size: 55%;
+   }
+   h3{
+       /* margin: 2px; */
+       margin-top: 2px !important;
+       /* margin-bottom: 0px !important; */
    }
     .form_wrapper{
-        margin-top: 80px;
+        margin-top: 40px;
     }
     .form_container{
-        width: 65vw;
+        width: 80vw;
        
     }
     .candidatename{
         
         margin:5px;
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
     }
-    
+    .candidatename h3{
+        margin-top: 20px !important;
+    }
+    input{
+        margin-top: 0px !important;
+    }
     .name input{
         font-size:40% ;
-        width:50px;
+        width:58px;
+        /* margin: 2px; */
         height: 25px;
-        border: 1px solid green;
+        /* border: 1px solid green; */
     }
 
     .form_container .dob_gender{
-        margin: 5px;
+        margin: 4px;
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
+        /* border:1px solid green; */
         flex-direction:column ;
-        /* border:none;  */
+         
     }
    
     .form_container .dob_gender .dob .dobrow select{
         
-        font-size:40% ;
+        font-size:55% ;
         width:80px;
         height: 25px;
        margin:5px;
@@ -219,20 +235,24 @@ body{
    
     
     .gender{
-    border:none;
+        margin-top: 0px;
+         
         margin-left: 0px;
         margin-right: auto;
     }
    
     .dob_gender .gender select{
-        width: 80px;
+        width: 74px;
+        margin-top: 0px;
+        margin-bottom: 0px;
         height: 25px;
+        background-color:#fff;
         border-radius:4px;
         /* margin:0px; */
     }
     .email_number{
        
-        margin:10px;
+        margin:0px ;
         
     }
   
@@ -243,28 +263,28 @@ body{
     
     .email_number input{
         height: 25px;
-        width: 60px;
+        width: 74px;
         margin-left:15px;
     }
     .pwd{
      
         
         margin-left: auto;
-        margin-right: 7px;
+        margin-right: 4px;
         
     }
   
     .pwd select{
-        margin-top:10px;
+        margin-top:0px;
 
-        
-        width:60px;
+        background-color:#fff;
+        width:74px;
         height: 25px;
         border-radius:4px;
-        font-size: 40%;
+        font-size: 55%;
     }
     .form_wrapper .form_container .registerbtn{
         padding: 10px;
-        font-size: 50%;
+        font-size: 55%;
     }
 }
