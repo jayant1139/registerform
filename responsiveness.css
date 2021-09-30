@@ -1,0 +1,270 @@
+body{
+    background-color: rgb(255, 94, 0);
+}
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+    .form_wrapper{
+        margin-top: 80px;
+    }
+    .form_container{
+        width: 60vw;
+       
+    }
+    .candidatename{
+        
+        margin:25px;
+    }
+    .candidatename h3{
+        margin-right: auto;
+        margin-left: 10px;
+    }
+    .name{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        /* justify-content: space-around; */
+        /* align-items: center; */
+        border: 1px solid green;
+    }
+    
+    .dob_gender{
+      
+        margin:25px;
+    }
+   
+   
+    .form_container .dob_gender .dob .dobrow select{
+        width: 70px;
+       margin:5px;
+        text-align: center;
+        height: 40px;
+    }
+    
+   
+    
+    
+    .dob_gender .gender{
+        border:none;
+        border-radius: 5px;
+        /* margin: 0px; */
+        margin-left: 55px;
+        
+    }
+    .dob_gender .gender select{
+        width: 190px;
+        height: 40px;
+        /* padding: 5px; */
+        /* border:none; */
+    }
+    
+  
+    .number{
+        margin-right: 40px;
+     
+    }
+    
+    .email_number input{
+        height: 40px;
+        width: 190px;
+        /* margin:10px; */
+    }
+    .pwd{
+     
+        /* border:none; */
+        /* width: 190px; */
+        /* padding: 10px; */
+        /* margin-left: a; */
+        margin-right: 40px;
+      
+    }
+  
+    .pwd select{
+        margin:0px;
+        text-align: center;
+        width: 190px;
+        height: 40px;
+        font-size: large;
+    }
+    .registerbtn{
+        padding: 10px;
+        font-size: 20px;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    .form_wrapper{
+        margin-top: 80px;
+    }
+    .form_container{
+        width: 70vw;
+       
+    }
+    .candidatename{
+        
+        margin:20px;
+    }
+    
+    .name input{
+        width:150px;
+        border: 1px solid green;
+    }
+
+    .form_container .dob_gender{
+        margin: 20px;
+       /* border:none;  */
+    }
+    
+    .form_container .dob_gender .dob .dobrow select{
+        width: 70px;
+       margin: 6px;
+       margin-top: 2px;
+       
+       border-radius:2px;
+        height: 40px;
+    }
+    
+   
+    
+    .gender{
+    border:none;
+        /* margin-left: auto; */
+        margin-right: 40px;
+    }
+   
+    .dob_gender .gender select{
+        width: 160px;
+        height: 40px;
+        border-radius:4px;
+        /* margin:0px; */
+    }
+    .email_number{
+       
+        margin:20px;
+        
+    }
+  
+    .number{
+        margin-left: auto;
+        margin-right: 0px;
+    }
+    
+    .email_number input{
+        height: 40px;
+        width: 200px;
+        margin:10px;
+    }
+    .pwd{
+     
+        
+        margin-left: auto;
+        margin-right: 0px;
+        
+    }
+  
+    .pwd select{
+        margin:10px;
+        text-align: center;
+        width: 200px;
+        height: 40px;
+        border-radius:4px;
+        font-size: medium;
+    }
+    .form_wrapper .form_container .registerbtn{
+        padding: 13px;
+        font-size: 20px;
+    }
+}
+
+
+@media screen and (max-width:475px) {
+   html{
+       font-size: 40%;
+   }
+    .form_wrapper{
+        margin-top: 80px;
+    }
+    .form_container{
+        width: 65vw;
+       
+    }
+    .candidatename{
+        
+        margin:5px;
+    }
+    
+    .name input{
+        font-size:40% ;
+        width:50px;
+        height: 25px;
+        border: 1px solid green;
+    }
+
+    .form_container .dob_gender{
+        margin: 5px;
+        flex-direction:column ;
+        /* border:none;  */
+    }
+   
+    .form_container .dob_gender .dob .dobrow select{
+        
+        font-size:40% ;
+        width:80px;
+        height: 25px;
+       margin:5px;
+       /* margin-top: 2px; */
+      
+    }
+    
+   
+    
+    .gender{
+    border:none;
+        margin-left: 0px;
+        margin-right: auto;
+    }
+   
+    .dob_gender .gender select{
+        width: 80px;
+        height: 25px;
+        border-radius:4px;
+        /* margin:0px; */
+    }
+    .email_number{
+       
+        margin:10px;
+        
+    }
+  
+    .number{
+        margin-left: auto;
+        margin-right: 0px;
+    }
+    
+    .email_number input{
+        height: 25px;
+        width: 60px;
+        margin-left:15px;
+    }
+    .pwd{
+     
+        
+        margin-left: auto;
+        margin-right: 7px;
+        
+    }
+  
+    .pwd select{
+        margin-top:10px;
+
+        
+        width:60px;
+        height: 25px;
+        border-radius:4px;
+        font-size: 40%;
+    }
+    .form_wrapper .form_container .registerbtn{
+        padding: 10px;
+        font-size: 50%;
+    }
+}

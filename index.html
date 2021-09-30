@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS Bootstrap 4 -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsiveness.css">
+</head>
+
+<body>
+   
+  
+    <div class="form_wrapper">
+        <form action="./address.html" method="POST">
+            <div class="form_container">
+                <h1 style="text-align: center;margin: 10px;">Student Registration Form
+                </h1>
+                <p style="text-align: center;">Fill out the form carefully for registration</p>
+
+                <div class="candidatename">
+                    <h3><b>Candidate Name</b></h3>
+                    <div class="name">
+                        <input type="text" placeholder="Enter First Name" name="fname" id="fname" required>
+
+                        <!-- <label  for="mname"><b>Middle Name</b></label> -->
+                        <input type="text" placeholder="Enter Middle Name" name="mname" id="mname">
+
+                        <!-- <label for="lname"><b>Last Name</b></label> -->
+
+                        <input type="text" placeholder="Enter Last Name" name="lname" id="lname" required>
+                    </div>
+                </div>
+
+                <!-- father div -->
+                <div class="candidatename">
+                    <h3><b>Father Name</b></h3>
+                    <div class="name">
+                        <input type="text" placeholder="Enter First Name" name="faname" id="faname" required>
+
+                        <input type="text" placeholder="Enter Last Name" name="flname" id="flname" required>
+                    </div>
+                </div>
+                <!-- father div ends -->
+
+                <!-- Mother div -->
+                <div class="candidatename">
+                    <h3><b>Mother Name</b></h3>
+                    <div class="name">
+                        <input type="text" placeholder="Enter First Name" name="mothername" id="mothername" required>
+
+                        <input type="text" placeholder="Enter Last Name" name="motherlastname" id="motherlastname" required>
+                    </div>
+                </div>
+                <!-- Mother div ends -->
+                <!-- Date of Birth div starts -->
+                <div class="dob_gender">
+                    <div class="dob">
+                        <h3>Date Of Birth</h3>
+                        <div class="dobrow">
+                            <select name="Month">
+
+                                <option value="month">Month</option>
+                                <option value="01">January</option>
+                                <option value="02">February</option>
+                                <option value="03">March</option>
+                            </select>
+
+                            <select name="Day">
+
+                                <option value="Day">Day</option>
+                                <option value="01">1</option>
+                                <option value="02">2</option>
+                                <option value="03">3</option>
+                            </select>
+
+                            <select name="Year">
+
+                                <option value="Year">Year</option>
+                                <option value="1999">1999</option>
+                                <option value="2000">2000</option>
+                                <option value="2001">2001</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="gender">
+                        <h3>Gender</h3>
+                        <select name="gender" required>
+
+                            <option value="Gender"></option>
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                            <option value="N/A">N/A</option>
+                        </select>
+                    </div>
+
+                </div>
+
+                <!-- Date of Birth div ends -->
+
+                <!-- email div starts -->
+                <div class="email_number">
+                    <div class="email">
+                        <h3><b>Email</b></h3>
+                        <input type="email" name="email" id="">
+                    </div>
+                    <div class="number">
+                        <h3><b>Mobile Number</b></h3>
+                        <input type="number" name="mobile" id="">
+
+                    </div>
+
+                </div>
+                <!-- eail div ends -->
+
+
+                <!-- school div1 starts -->
+                <div class="email_number">
+                    <div class="email">
+                        <h3><b>School Name</b></h3>
+                        <input type="text" name="Schoolname" id="">
+                    </div>
+                    <div class="number">
+                        <h3><b>Schooling Place</b></h3>
+                        <input type="text" name="placeofschooling" id="">
+
+                    </div>
+
+                </div>
+                <!-- school div1 ends -->
+
+                <!-- school div2 starts -->
+                <div class="email_number">
+                    <div class="email">
+                        <h3><b>Board Type</b></h3>
+                        <input type="text" name="boardtype" id="">
+                    </div>
+                    <div class="pwd">
+                        <h3><b>PWD</b></h3>
+                        <select name="pwd" required>
+
+                            <option value="N/A">N/A</option>
+                            <option value="Yes">Yes</option>
+                            <option value="No">No</option>
+
+                        </select>
+                    </div>
+
+                </div>
+                <!-- school div2 ends -->
+
+                <!-- school div2 starts -->
+                <div class="email_number">
+                    <div class="email">
+                        <h3><b>Appearing Year</b></h3>
+                        <input type="text" name="app_year" id="">
+                    </div>
+                    <div class="pwd">
+                        <h3><b>Course</b></h3>
+                        <select name="course" required>
+
+                            <option value="blank"></option>
+                            <option value="history">history</option>
+                            <option value="physics">physics</option>
+
+                        </select>
+                    </div>
+
+                </div>
+                <!-- school div2 ends -->
+
+                <button class="registerbtn" type="submit" name="submit" >Submit Application</button>
+            </div>
+
+        </form>
+    </div>
+</body>
+
+</html>

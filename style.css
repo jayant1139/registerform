@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background: rgb(240, 240, 240);
+}
+h3{
+    text-align: left;
+    margin:10px;
+}
+input{
+    border-radius: 3px;
+    border:0.5px solid grey;
+    height: 45px;
+    width:350px;
+    
+    text-align: center;
+}
+.form_wrapper{
+   margin-top: 40px;
+   margin-bottom: 40px;
+}
+.form_container{
+    
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 1px -1px 34px -1px rgba(0,0,0,0.75);
+-webkit-box-shadow: 1px -1px 34px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px -1px 34px -1px rgba(0,0,0,0.75);
+    width: 60vw;
+    
+    text-align: center;
+    margin: auto;
+  align-items: center;
+    padding: 10px;
+}
+.candidatename{
+    /* border: 1px solid brown; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: flex-end; */
+    margin: 30px;
+}
+
+.name{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    /* border: 1px solid green; */
+}
+.name input{
+    margin:10px;
+}
+
+
+
+.dob_gender{
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: nowrap; */
+    justify-content: space-between;
+    /* border:1px solid blue; */
+    /* align-items: center; */
+    margin:30px;
+}
+.form_container .dob_gender .dob .dobrow{
+    display: flex;
+    flex-direction: row;
+    /* border:3px solid red; */
+    flex-wrap: nowrap;
+}
+
+
+.dob_gender select{
+    height: 40px;
+    text-align: center;
+    width: 100px;
+    margin:10px;
+}
+.gender{
+    /* border:1px solid crimson; */
+    /* margin-left: auto; */
+    margin-right: 75px;
+}
+
+.dob_gender .gender select{
+    width: 200px;
+    height: 45px;
+}
+.email_number{
+    display: flex;
+    flex-direction: row;
+    margin:30px;
+    /* justify-content: space-around; */
+    /* border:1px solid blueviolet; */
+}
+.email,.number{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* margin: 10px; */
+    /* justify-content: space-around; */
+}
+.number{
+    margin-left: auto;
+    margin-right: 85px;
+}
+
+.email_number input{
+    height: 45px;
+    width: 200px;
+    /* margin:10px; */
+}
+.pwd{
+    /* border:1px solid greenyellow; */
+    
+    margin-left: auto;
+    margin-right: 85px;
+    
+}
+
+.pwd select{
+    /* margin:10px; */
+    text-align: center;
+    width: 200px;
+    height: 40px;
+    font-size: large;
+}
+.form_container .registerbtn{
+    /* background-color: brown; */
+    border:transparent;
+    background:#f97000;
+    color:#fff;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 8px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+/* Style for address Page  */
+.flex-column{
+    border:1px solid red;
+    flex-direction: column !important;
+    flex-wrap: nowrap;
+    margin:20px;
+}
+.flex-column input{
+    width:700px;
+    height: 45px;
+    font-size: medium;
+    margin:10px;
+}
+.flex-row-space-btw{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.flex-row-space-btw input{
+    width: 300px;
+    margin:30px;
+    height: 45px;
+}
+h3{
+ margin-left: 20px;
+ 
+
+}
+.width-400{
+    width: 300px;
+    margin: 25px;
+    margin-top: 10px;
+    
+}
+.flex-row-space-btw2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border:1px solid green;
+    margin: 20px;
+}
+.flex-column2{
+    display: flex;
+    flex-direction: column;
+}
+
+/* Style for address page ends here */
+
+/* style for uploading page starts here */
+.browsefile{
+    /* border:1.54px solid blue; */
+    /* display: inline-block; */
+    border:1px solid green;
+    /* text-align: left; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 20px;
+    
+}
+.moveleft{
+    border:1px solid blue;
+    margin-right: auto;
+   
+}
+.moveleft h5{
+    color:rgb(138, 138, 138);
+    font-weight: 100;
+}
+.browsefile .upload-box{
+    height: 60px;
+    font-size: 18px;
+    /* border:2px solid greenyellow; */
+    background-color: #fff;
+    border-radius: 50px;
+    width:300px;
+    border:none;
+    box-shadow: 1px 1px 10px rgb(160, 160, 160);
+    outline: none;
+    cursor: pointer;
+    margin: 8px;
+
+
+}
+::-webkit-file-upload-button{
+    color: #fff;
+    /* height: auto; */
+    /* width:120px; */
+    /* font-size: 16px; */
+    background:#f97000;
+    padding: 20px;
+    border:none;
+    border-radius: 30px;
+    text-align: right;
+    /* box-shadow: 1px 0px 1px 1px black; */
+    outline: none;
+    cursor: pointer;
+}
+::-webkit-file-upload-button:hover{
+
+    background:#f97000b0;
+}
+
