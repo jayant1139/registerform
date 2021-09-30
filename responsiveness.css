@@ -253,7 +253,8 @@ body{
     }
     .email_number{
        
-        margin:0px ;
+        margin:0px;
+        margin-top: 5px;
         
     }
   
