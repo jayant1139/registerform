@@ -228,6 +228,7 @@ body{
         width:80px;
         height: 25px;
        margin:5px;
+       background-color:#fff !important;
        /* margin-top: 2px; */
       
     }
@@ -246,7 +247,7 @@ body{
         margin-top: 0px;
         margin-bottom: 0px;
         height: 25px;
-        background-color:#fff;
+        background-color:#fff !important;
         border-radius:4px;
         /* margin:0px; */
     }
@@ -279,7 +280,9 @@ body{
 
         background-color:#fff;
         width:74px;
+ 
         height: 25px;
+        
         border-radius:4px;
         font-size: 55%;
     }

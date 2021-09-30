@@ -20,6 +20,10 @@ input{
     
     text-align: center;
 }
+select{
+    border:0.5px solid grey;
+    background-color: #fff;
+}
 .form_wrapper{
    margin-top: 40px;
    margin-bottom: 40px;
