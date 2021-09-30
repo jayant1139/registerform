@@ -183,6 +183,7 @@ body{
    }
    h3{
        /* margin: 2px; */
+       margin-left: 8px;
        margin-top: 2px !important;
        /* margin-bottom: 0px !important; */
    }
@@ -225,7 +226,7 @@ body{
     .form_container .dob_gender .dob .dobrow select{
         
         font-size:55% ;
-        width:80px;
+        width:65px;
         height: 25px;
        margin:5px;
        background-color:#fff !important;
@@ -243,18 +244,18 @@ body{
     }
    
     .dob_gender .gender select{
-        width: 74px;
-        margin-top: 0px;
-        margin-bottom: 0px;
+        width: 65px;
+        margin:0px;
+        margin-left: 5px;
         height: 25px;
         background-color:#fff !important;
         border-radius:4px;
-        /* margin:0px; */
+        
     }
     .email_number{
        
-        margin:0px;
-        margin-top: 5px;
+        margin:5px;
+        
         
     }
   
@@ -265,23 +266,26 @@ body{
     
     .email_number input{
         height: 25px;
-        width: 74px;
-        margin-left:15px;
+        width: 65px;
+        margin-left:5px;
     }
     .pwd{
-     
-        
+        margin:0px;
+        /* margin-top:0px; */
         margin-left: auto;
-        margin-right: 4px;
+        margin-right: 10px;
         
+    }
+    .pwd h3{
+        margin-left: 5px;
     }
   
     .pwd select{
         margin-top:0px;
 
         background-color:#fff;
-        width:74px;
- 
+        width:65px;
+        margin-left: 0px;
         height: 25px;
         
         border-radius:4px;
