@@ -175,7 +175,7 @@ select{
     margin-bottom: 0px;
 }
 .flex-column input{
-    width:800px;
+    width:700px;
     height: 45px;
     font-size: medium;
     margin:10px;
@@ -187,7 +187,7 @@ select{
 }
 .flex-row-space-btw input{
     width: 400px;
-    margin:25px;
+    margin:30px;
     height: 45px;
 }
 h3{

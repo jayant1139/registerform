@@ -394,33 +394,34 @@ margin-top: 0px;
 margin-bottom: 0px;
 }
 .flex-column input{
-width:170px;
+width:270px;
 height: 25px;
 font-size: 55%;
 margin:10px;
 }
 
 .flex-row-space-btw input{
-width: 170px;
-margin:10px;
+width: 150px;
+margin:0px 19px 0px 19px;
 height: 25px;
 }
 h3{
-margin-left: 10px;
+margin-left: 20px;
 width:auto;
 /* border:1px solid brown; */
 }
 .width-400{
-width: 80px;
+width: 112px;
 height: 25px;
-margin:10px;
+margin-left:19px;
+margin-top: 0px;
 
 
 
 }
 .flex-row-space-btw2{
 
-margin: 5px;
+margin: 10px;
 margin-bottom: 0px;
 margin-top: 0px;
 }
@@ -432,15 +433,8 @@ margin-top: 0px;
 
 /* style for uploading page starts here */
 .browsefile{
-    /* border:1.54px solid blue; */
-    /* display: inline-block; */
-    border:1px solid green;
-    /* text-align: left; */
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    margin: 20px;
+    
+    margin: 10px;
     margin-top: 0px;
     margin-bottom: 0px;
     
@@ -451,6 +445,7 @@ margin-top: 0px;
 .moveleft{
     border:1px solid blue;
     margin-right: auto;
+    margin-left: 5px;
    
 }
 .moveleft h5{
@@ -458,12 +453,12 @@ margin-top: 0px;
     font-weight: 100;
 }
 .browsefile .upload-box{
-    height: 40px;
+    height: 30px;
     font-size: 55%;
     /* border:2px solid greenyellow; */
     background-color: #fff;
-    border-radius: 50px;
-    width:150px;
+    border-radius:40px;
+    width:120px;
     border:none;
     box-shadow: 1px 1px 10px rgb(160, 160, 160);
     outline: none;
@@ -478,11 +473,11 @@ margin-top: 0px;
     /* width:120px; */
     /* font-size: 16px; */
     background:#f97000;
-    padding:17px;
+    padding:12px;
     /* padding: 15px 15px 20px; */
     border:none;
     font-size: 55%;
-    border-radius: 20px;
+    border-radius: 40px;
     text-align: right;
     /* box-shadow: 1px 0px 1px 1px black; */
     outline: none;
