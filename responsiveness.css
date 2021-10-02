@@ -1,13 +1,10 @@
-body{
-    background-color: rgb(255, 94, 0);
-}
 
 @media screen and (min-width:769px) and (max-width:1024px) {
     .form_wrapper{
         margin-top: 80px;
     }
     .form_container{
-        width: 60vw;
+        width: 70vw;
        
     }
     .candidatename{
@@ -53,11 +50,7 @@ body{
     .dob_gender .gender select{
         width: 190px;
         height: 40px;
-        /* padding: 5px; */
-        /* border:none; */
     }
-    
-  
     .number{
         margin-right: 40px;
      
@@ -88,7 +81,49 @@ body{
     .registerbtn{
         padding: 10px;
         font-size: 20px;
+        margin:5px;
     }
+
+    /* Style for address Page  */
+.flex-column{
+    
+        margin:20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.flex-column input{
+    width:600px;
+    height: 45px;
+    font-size: medium;
+    margin:10px;
+}
+
+.flex-row-space-btw input{
+    width: 400px;
+    margin:25px;
+    height: 45px;
+}
+h3{
+ margin-left: 20px;
+ 
+
+}
+.width-400{
+    width: 250px;
+    
+   
+    
+}
+.flex-row-space-btw2{
+    
+    margin: 20px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+
+/* Style for address page ends here */
+
 }
 
 
@@ -97,7 +132,7 @@ body{
         margin-top: 80px;
     }
     .form_container{
-        width: 70vw;
+        width: 75vw;
        
     }
     .candidatename{
@@ -174,50 +209,97 @@ body{
         padding: 13px;
         font-size: 20px;
     }
+
+    /* Style for address Page  */
+    .flex-column{
+    
+        margin:20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.flex-column input{
+    width:450px;
+    height: 45px;
+    font-size: medium;
+    margin:10px;
+}
+
+.flex-row-space-btw input{
+    width: 200px;
+    margin:30px;
+    height: 45px;
+}
+h3{
+ margin-left: 20px;
+ width:225px;
+/* border:1px solid brown; */
+}
+.width-400{
+    width: 200px;
+    /* margin:0px; */
+    
+   
+    
+}
+.flex-row-space-btw2{
+    
+    margin: 20px;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 
-@media screen and (max-width:475px) {
+/* Style for address page ends here */
+
+
+}
+
+
+
+@media screen and (max-width:540px) {
    html{
        font-size: 55%;
    }
    h3{
        /* margin: 2px; */
        margin-left: 8px;
-       margin-top: 2px !important;
-       /* margin-bottom: 0px !important; */
+       margin-top: 2px ;
+       /* margin-bottom: 0px ; */
    }
     .form_wrapper{
         margin-top: 40px;
     }
     .form_container{
-        width: 80vw;
+        width: 70vw;
        
     }
     .candidatename{
         
-        margin:5px;
-        margin-top: 0px !important;
-        margin-bottom: 0px !important;
+        margin:10px;
+        margin-top: 0px ;
+        margin-bottom: 0px ;
     }
     .candidatename h3{
-        margin-top: 20px !important;
+        margin-top:5px ;
     }
     input{
-        margin-top: 0px !important;
+        margin-top: 0px ;
+        margin-bottom:0px;
     }
     .name input{
         font-size:40% ;
-        width:58px;
+        width:60px;
         /* margin: 2px; */
         height: 25px;
+        margin-top: 0px ;
+        margin-bottom:0px;
         /* border: 1px solid green; */
     }
 
     .form_container .dob_gender{
-        margin: 4px;
-        margin-top: 0px !important;
-        margin-bottom: 0px !important;
+        margin:10px;
+        margin-top: 5px ;
+        margin-bottom: 0px ;
         /* border:1px solid green; */
         flex-direction:column ;
          
@@ -226,37 +308,42 @@ body{
     .form_container .dob_gender .dob .dobrow select{
         
         font-size:55% ;
-        width:65px;
+        width:60px;
         height: 25px;
-       margin:0px 7px 5px 7px;
-       background-color:#fff !important;
+       margin:0px 10px 5px 10px;
+       background-color:#fff ;
        /* margin-top: 2px; */
       
     }
     
    
-    
+    .gender h3{
+        margin-left:0px;
+    }
     .gender{
         margin-top: 0px;
          
-        margin-left: 0px;
+        margin-left: 10px;
         margin-right: auto;
     }
-   
     .dob_gender .gender select{
         width: 65px;
         margin:0px;
-        margin-left: 5px;
+        
         height: 25px;
-        background-color:#fff !important;
-        border-radius:4px;
+        background-color:#fff ;
+        border-radius:3px;
         
     }
     .email_number{
        
         margin:5px;
+        margin-top: 0px;
+        margin-bottom: 0px;
         
-        
+    }
+    .email_number h3{
+        margin-left: 5px;
     }
   
     .number{
@@ -268,6 +355,9 @@ body{
         height: 25px;
         width: 65px;
         margin-left:5px;
+        
+        margin-top: 0px;
+        margin-bottom: 0px;
     }
     .pwd{
         margin:0px;
@@ -277,14 +367,14 @@ body{
         
     }
     .pwd h3{
-        margin-left: 5px;
+        margin-left: 0px;
     }
   
     .pwd select{
         margin-top:0px;
 
         background-color:#fff;
-        width:65px;
+        width:60px;
         margin-left: 0px;
         height: 25px;
         
@@ -295,4 +385,114 @@ body{
         padding: 10px;
         font-size: 55%;
     }
+
+ /* Style for address Page  */
+ .flex-column{
+    
+    margin:10px;
+margin-top: 0px;
+margin-bottom: 0px;
+}
+.flex-column input{
+width:170px;
+height: 25px;
+font-size: 55%;
+margin:10px;
+}
+
+.flex-row-space-btw input{
+width: 170px;
+margin:10px;
+height: 25px;
+}
+h3{
+margin-left: 10px;
+width:auto;
+/* border:1px solid brown; */
+}
+.width-400{
+width: 80px;
+height: 25px;
+margin:10px;
+
+
+
+}
+.flex-row-space-btw2{
+
+margin: 5px;
+margin-bottom: 0px;
+margin-top: 0px;
+}
+
+
+/* Style for address page ends here */
+
+/* Style for address page ends here */
+
+/* style for uploading page starts here */
+.browsefile{
+    /* border:1.54px solid blue; */
+    /* display: inline-block; */
+    border:1px solid green;
+    /* text-align: left; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+.browsefile h3{
+    margin-right: auto;
+}
+.moveleft{
+    border:1px solid blue;
+    margin-right: auto;
+   
+}
+.moveleft h5{
+    color:rgb(138, 138, 138);
+    font-weight: 100;
+}
+.browsefile .upload-box{
+    height: 40px;
+    font-size: 55%;
+    /* border:2px solid greenyellow; */
+    background-color: #fff;
+    border-radius: 50px;
+    width:150px;
+    border:none;
+    box-shadow: 1px 1px 10px rgb(160, 160, 160);
+    outline: none;
+    cursor: pointer;
+    margin: 4px;
+
+
+}
+::-webkit-file-upload-button{
+    color: #fff;
+    /* height: auto; */
+    /* width:120px; */
+    /* font-size: 16px; */
+    background:#f97000;
+    padding:17px;
+    /* padding: 15px 15px 20px; */
+    border:none;
+    font-size: 55%;
+    border-radius: 20px;
+    text-align: right;
+    /* box-shadow: 1px 0px 1px 1px black; */
+    outline: none;
+    cursor: pointer;
+}
+::-webkit-file-upload-button:hover{
+
+    background:#f97000b0;
+}
+
+
+
 }

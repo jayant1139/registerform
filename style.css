@@ -22,6 +22,7 @@ input{
 }
 select{
     border:0.5px solid grey;
+    border-radius: 3px;
     background-color: #fff;
 }
 .form_wrapper{
@@ -102,6 +103,9 @@ select{
     display: flex;
     flex-direction: row;
     margin:30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
     /* justify-content: space-around; */
     /* border:1px solid blueviolet; */
 }
@@ -109,32 +113,43 @@ select{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    /* margin: 10px; */
+    margin: 10px;
     /* justify-content: space-around; */
 }
 .number{
     margin-left: auto;
     margin-right: 85px;
 }
-
+.email_number h3{
+    margin-left: 10px;
+}
 .email_number input{
     height: 45px;
     width: 200px;
     /* margin:10px; */
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
 }
 .pwd{
     /* border:1px solid greenyellow; */
     
     margin-left: auto;
     margin-right: 85px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    
     
 }
 
 .pwd select{
     /* margin:10px; */
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
     text-align: center;
     width: 200px;
-    height: 40px;
+    height: 45px;
     font-size: large;
 }
 .form_container .registerbtn{
@@ -144,7 +159,7 @@ select{
     color:#fff;
     border-radius: 5px;
     margin: 10px;
-    padding: 8px;
+    padding: 10px;
     font-size: 20px;
     cursor: pointer;
 }
@@ -156,9 +171,11 @@ select{
     flex-direction: column !important;
     flex-wrap: nowrap;
     margin:20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 .flex-column input{
-    width:700px;
+    width:800px;
     height: 45px;
     font-size: medium;
     margin:10px;
@@ -169,8 +186,8 @@ select{
     justify-content: space-between;
 }
 .flex-row-space-btw input{
-    width: 300px;
-    margin:30px;
+    width: 400px;
+    margin:25px;
     height: 45px;
 }
 h3{
@@ -190,6 +207,8 @@ h3{
     justify-content: space-between;
     border:1px solid green;
     margin: 20px;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 .flex-column2{
     display: flex;
@@ -209,7 +228,12 @@ h3{
     justify-content: flex-start;
     align-items: center;
     margin: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     
+}
+.browsefile h3{
+    margin-right: auto;
 }
 .moveleft{
     border:1px solid blue;
